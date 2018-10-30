@@ -12,7 +12,23 @@
    Filename:         pcg_paper.css
    Supporting Files: 
  */
-/* Nav */
+
+/* Html & Body */
+
+html {
+    background-color: rgb(59, 59, 59);
+}
+
+body {
+    width: 100%;
+    max-width: 960px;
+    min-width: 520px;
+    margin: auto;
+    color: rgb(247, 247, 247);
+}
+
+
+ /* Nav */
 .dropdown {
     position: relative;
     display: inline-block;
@@ -32,4 +48,21 @@
 
 .dropdown:hover .dropdown-content {
     display: block;
+}
+
+nav {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    height: 3em;
+    text-align: center;
+    padding-top: .1px;
+}
+
+li {
+   position: relative;
+    display: inline;
+}
+
+a{
+    font-size: 1.3em;
 }

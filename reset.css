@@ -62,7 +62,7 @@ span,
 ul {
     background: transparent;
     font-size: 100%;
-    margin: 0%;
+    /* margin: 0%; */
     padding: 0%;
     vertical-align: baseline;
     -webkit-box-sizing: border-box;
