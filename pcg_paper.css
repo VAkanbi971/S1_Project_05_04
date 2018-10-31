@@ -22,7 +22,7 @@ html {
 body {
     width: 100%;
     max-width: 960px;
-    min-width: 520px;
+    min-width: 640px;
     margin: auto;
     color: rgb(247, 247, 247);
 }
@@ -38,7 +38,7 @@ body {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
+    background-color: rgb(0, 0, 104);
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     padding: 12px 16px;
@@ -51,7 +51,7 @@ body {
 }
 
 nav {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 104);
     color: rgb(0, 0, 0);
     height: 3em;
     text-align: center;
@@ -65,4 +65,63 @@ li {
 
 a{
     font-size: 1.3em;
+}
+
+a:visited,
+A:link {
+    background-color: rgb(0, 0, 104); 
+    color: white;
+}
+
+a:active {
+    background-color: blue;
+    color: grey;
+}
+
+/* Aside */
+
+aside {
+    float: left;
+    background-color: rgb(0, 0, 104);
+}
+
+aside p {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+aside h3 {
+    padding: 0 1em;
+}
+
+/* Body */
+.paddingleft {
+    padding-left: 16em;
+}
+
+.bullet{
+    text-decoration: dotted;
+}
+
+/* img */
+img.img {
+    float: left;
+    position: absolute;
+    left: 18em;
+    right: 0em;
+    bottom: 0em;
+    top: 39em;
+}
+
+/* footer */
+
+footer {
+    color: white;
+    background-color: rgb(0, 0, 104);
+    text-align: center;
+    font-size: 15px;
+}
+
+footer>p {
+    text-decoration: none;
 }
