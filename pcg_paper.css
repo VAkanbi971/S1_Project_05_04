@@ -14,7 +14,7 @@
  */
 
 /* Html & Body */
-
+/* I added a new css applicaition to the display of none so that i could have a drop box and be able to have rest of the content. BUt beefore that i made the website background color gray. I made the body max width and min width to the specifications and i centered it in the browser with the margin auto style. I also changed the text color. */
 html {
     background-color: rgb(59, 59, 59);
 }
@@ -49,23 +49,80 @@ body {
 .dropdown:hover .dropdown-content {
     display: block;
 }
-
+/* I  Basicly chnaged the background color,color and the height of the nav bar, centered the text and added some top paddding */
 nav {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 104);
     color: rgb(0, 0, 0);
     height: 3em;
     text-align: center;
-    filter: drop-shadow(0 0 100px black);
-    margin: 0, auto;
-    padding-top: 20px;
+    padding-top: .1px;
+}
+/* MAde the display inline so they would apear in a line and made the position relative so it still follows the heiarchy. */
+li {
+   position: relative;
+    display: inline;
 }
 
-header>nav {
-    display: table;
-    width: 100%;
+a{
+    font-size: 1.3em;
 }
 
-header>nav>ul {
-    display: table-row;
-    list-style-type: none;
+a:visited,
+A:link {
+    background-color: rgb(0, 0, 104); 
+    color: white;
+}
+
+a:active {
+    background-color: blue;
+    color: grey;
+}
+/* Aside */
+/* FLoated the aside to the left and changed the back ground color and i added some padding  */
+aside {
+    float: left;
+    background-color: rgb(0, 0, 104);
+}
+
+aside p {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+aside h3 {
+    padding: 0 1em;
+}
+
+/* Body */
+/* used the class to add padding and to try and added bulets which didnt work */
+.paddingleft {
+    padding-left: 16em;
+}
+
+.bullet {
+    text-decoration: dotted;
+}
+
+/* img */
+/* Img with the class of img was floaed left so that it could e under the aside and to acoplish that i used absolute posistion */
+img.img {
+    float: left;
+    position: absolute;
+    left: 18em;
+    right: 0em;
+    bottom: 0em;
+    top: 39em;
+}
+
+/* footer */
+/* Made the text color white and the background color blue alighned the text to the center and increased the font size a bit. I also displayed iline so there would be no breaks inbetween the elements. */
+footer {
+    color: white;
+    background-color: rgb(0, 0, 104);
+    text-align: center;
+    font-size: 15px;
+}
+
+footer>p {
+    display: inline;
 }
