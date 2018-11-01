@@ -28,7 +28,7 @@ body {
 }
 
 
- /* Nav */
+/* Nav */
 .dropdown {
     position: relative;
     display: inline-block;
@@ -51,77 +51,21 @@ body {
 }
 
 nav {
-    background-color: rgb(0, 0, 104);
+    background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     height: 3em;
     text-align: center;
-    padding-top: .1px;
+    filter: drop-shadow(0 0 100px black);
+    margin: 0, auto;
+    padding-top: 20px;
 }
 
-li {
-   position: relative;
-    display: inline;
+header>nav {
+    display: table;
+    width: 100%;
 }
 
-a{
-    font-size: 1.3em;
-}
-
-a:visited,
-A:link {
-    background-color: rgb(0, 0, 104); 
-    color: white;
-}
-
-a:active {
-    background-color: blue;
-    color: grey;
-}
-
-/* Aside */
-
-aside {
-    float: left;
-    background-color: rgb(0, 0, 104);
-}
-
-aside p {
-    padding-left: 1em;
-    padding-right: 1em;
-}
-
-aside h3 {
-    padding: 0 1em;
-}
-
-/* Body */
-.paddingleft {
-    padding-left: 16em;
-}
-
-.bullet{
-    text-decoration: dotted;
-}
-
-/* img */
-img.img {
-    float: left;
-    position: absolute;
-    left: 18em;
-    right: 0em;
-    bottom: 0em;
-    top: 39em;
-}
-
-/* footer */
-
-footer {
-    color: white;
-    background-color: rgb(0, 0, 104);
-    text-align: center;
-    font-size: 15px;
-}
-
-footer>p {
-    text-decoration: none;
+header>nav>ul {
+    display: table-row;
+    list-style-type: none;
 }
